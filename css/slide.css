@@ -3,18 +3,24 @@
 }
 .wrapper{
    overflow: hidden;
-  
+   max-width: 600px;
+   margin: 0 auto;
+   
   }
 .slide{
   display: flex;
-  transform: translate3d(0, 0, 0);
 }
 
 .slide li{
   width: 80vw;
   max-width: 800px;
   margin: 0 20px;
+  flex-shrink: 0;
 }
+
+
+/* SLIDE CONTROLS */
+
 .slide-controls{
   display: flex;
   justify-content: center;
