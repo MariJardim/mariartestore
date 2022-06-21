@@ -1,0 +1,83 @@
+
+.header-bg{
+  background: #fdeff4;
+  padding: 12px 0;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu img{
+  width: 150px;
+  height: 66px;
+}
+.nav-bar{
+  display: flex;
+  }
+.nav-bar > li+li{
+  margin-left: 40px;
+  }
+.nav-bar a:hover{
+  color: #FF5C8D;
+}
+.nav-bar a{
+  color: #171010;
+  padding: 10px 5px;
+  display: inline-block; /*quando cair um em cima do outro, não vai dar problema no padding*/
+  position: relative;
+  font-size: 1.2rem;
+}
+.nav-bar > li > a::after{
+  content: "";
+  display: block;
+  width: 0%;
+  background: #FF5C8D;
+  height: 3px;
+  margin-top: 10px;
+  position: absolute;
+  transition: .3s;
+}
+
+.nav-bar > li > a:hover::after, .nav-bar > li.active a::after {
+  width: 100%;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.login li{
+  display: inline-block;
+}
+.login li:hover{
+  background-color: #FF5C8D;
+}
+.login img{
+  width: 16px;
+  height:16px;
+}
+
+.login-icones li{
+  cursor: pointer;
+  padding: 4px;
+  background-color: #ffc0d3;
+  border-radius: 50%;
+}
+.search{
+  display: flex;
+  align-items: center;
+}
+input{
+  padding: 10px;
+  border: 2px solid #ffc0d3;
+  display: inline-block;
+  border-radius: 4px;
+}
+button{
+  margin-left: -36px;
+  background: transparent;
+  border: none;
+  padding: 6px;
+}

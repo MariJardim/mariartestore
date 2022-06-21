@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Mariarte Store</title>
+</head>
+
+<body>
+  <header class="header-bg">
+    <div class="container menu">
+      <a href="#"><img src="./img/mariarte_logo.png" alt="Mariarte Logo"></a>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li data-dropdown><a href="#categorias">Categorias</a>
+            <!-- SLIDE DOWN MENU-->
+            <ul class="dropdown-menu">
+              <li><a href="#bt21">BT21</a></li>
+              <li><a href="#cinzeiros">Cinzeiros</a></li>
+              <li><a href="#facas">Facas</a></li>
+              <li><a href="#games">Games</a></li>
+              <li><a href="#origami">Origami</a></li>
+              <li><a href="#pikachu">Pikachu</a></li>
+              <li><a href="#outros">Outros</a></li>
+            </ul>
+          </li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- LOGIN E CARRINHO -->
+
+      <div class="login">
+        <ul class="login-icones">
+          <li><img src="./img/icones/login1.svg"></li>
+          <li><img src="./img/icones/cart1.svg"></li>
+          <li><img src="./img/icones/fav1.svg"></li>
+        </ul>
+        <form class="search" action="">
+          <input type="search">
+          <button><img src="./img/icones/busca.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- SLIDE -->
+
+  <section class="slide-section" data-anime="scroll">
+    <div class="wrapper">
+      <ul class="slide">
+        <li><img src="./img/img1.jpg"></li>
+        <li><img src="./img/img2.jpg"></li>
+        <li><img src="./img/img3.jpg"></li>
+        <li><img src="./img/img4.jpg"></li>
+        <li><img src="./img/img5.jpg"></li>
+        <li><img src="./img/img6.jpg"></li>
+      </ul>
+    </div>
+    <ul class="slide-controls">
+      <li><img src="./img/mini-img1.jpg">
+        <span>Tata</span>
+      </li>
+      <li><img src="./img/mini-img2.jpg">
+        <span>Shooky</span>
+      </li>
+      <li><img src="./img/mini-img3.jpg">
+        <span>Mang</span>
+      </li>
+      <li><img src="./img/mini-img4.jpg">
+        <span>Chimmy</span>
+      </li>
+      <li><img src="./img/mini-img5.jpg">
+        <span>RJ</span>
+      </li>
+      <li><img src="./img/mini-img6.jpg">
+        <span>Cooky</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="produtos-bg" id="produtos">
+    <div class="container">
+      <h1 class="titulo">Produtos</h1>
+      <div class="div-select">
+        <p class="organizar">Organizar por:</p>
+
+        <select name="select" id="select">
+          <option value="preco">Preço</option>
+          <option value="nome">Nome</option>
+          <option value="novos">Recentes</option>
+        </select>
+
+      </div>
+
+      <div class="produtos">
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+        <div class="produto">
+          <div class="produto-imgs">
+            <img class="produto-img" src="./img/img7.jpg" alt="">
+            <a href="#"><img class="produto-icone" src="/img/icones/fav1.svg"></a>
+          </div>
+          <div class="produto-descricao">
+            <h2 class="produto-titulo">Chaveiro Mansdsdsdg - BT21</h2>
+            <p>R$200,00</p>
+            <a href="#"><img class="produto-icone" src="./img/icones/cart1.svg"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="contato">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="mailto:mariarte2209@hotmail.com">mariarte2209@hotmail.com</a></li>
+          <li><a href="tel:55996000457">(55) 99600-0457</a></li>
+          <li>Ijuí - RS</li>
+        </ul>
+      </div>
+      <div class="redes">
+        <h3>Redes</h3>
+        <a href="http://www.instagram.com/mariartestore"><img src="./img/icones/insta.svg" alt="ícone Instagram" width="32" height="32" alt="Instagram"></a>
+        <a href="http://www.twitter"><img src="./img/icones/twi.svg" alt="ícone Twitter" width="32" height="32" alt="Twitter"></a>
+
+      </div>
+      <div class="info">
+        <h3>Informações</h3>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+
+
+    </div>
+    <p class="footer-copy">Mariarte © Alguns direitos reservados.</p>
+  </footer>
+
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
