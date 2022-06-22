@@ -1,23 +1,26 @@
 .slide-section{
-  padding: 80px 0;
+  padding: 40px 0;
 }
 .wrapper{
    overflow: hidden;
-   max-width: 600px;
+   max-width: 1000px;
    margin: 0 auto;
-   
   }
 .slide{
   display: flex;
 }
 
 .slide li{
-  width: 80vw;
   max-width: 800px;
+  height: 80vh;
   margin: 0 20px;
   flex-shrink: 0;
-}
 
+}
+.slide img{
+height: 100%;
+border-radius: 6px;
+}
 
 /* SLIDE CONTROLS */
 
